@@ -1,0 +1,250 @@
+:root {
+    --primary-text-color: #4D5AE5;
+    --secondary-text-color: #2E2F42;
+    --tertiary-text-color: #434455;
+    --button-bgd-color: #F4F4FD;
+    --active-bgd-color: #404BBF;
+    --button-border-color: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color);
+    background-color: #fff;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5
+    letter-spacing: 0.02em;
+}
+
+.item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--button-border-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* ======= HEADER ============ */
+.header {
+}
+.header-nav {
+}
+
+.header-logo {
+    line-height: 1.33;
+    color: var(--secondary-text-color);
+}
+
+.accent {
+    color: var(--primary-text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-nav-list {
+}
+
+.list {
+    list-style: none;
+}
+
+.header-item {
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--primary-text-color);  
+}
+.address {
+}
+.address-contact {
+}
+.address-item {
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--tertiary-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--primary-text-color);
+}
+
+/* ========= HERO ========*/
+.hero {
+    background-color: var(--secondary-text-color);
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.mdl-button {
+    color: #fff;
+    background-color: var(--primary-text-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px  var(--button-border-color);
+    width: 169px;
+    height: 57px;
+    left: 636px;
+    top: 427px; 
+}
+
+.mdl-button:hover,
+.mdl-button:focus {
+    color: var(--primary-text-color);
+    background-color: var(--button-bgd-color);
+}
+
+/* ======== VALUES ========== */
+.values {
+}
+.values-list {  
+}
+.value-items {
+}
+.value-item {
+}
+
+.values-descr {  
+    color: var(--tertiary-text-color);
+}
+
+/* =======OCCUPATION ====== */
+.occupation {
+}
+
+.occupation-header,
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
+}
+
+.occupation-list {
+}
+
+.occupation-item {
+    cursor: pointer;
+}
+
+/* =========== OUR TEAM =========== */
+.team {
+}
+
+.team-list {
+}
+
+.team-member {
+    cursor: pointer;
+}
+.team-member-header {
+}
+
+.team-member-occupation {
+    color: #434455;
+}
+
+/* -------- FILTERS -------- */
+
+.portfolio {
+}
+.filter {
+}
+.filter-item {
+}
+
+.filter-button {
+    color: var(--primary-text-color);
+    background: var(--button-bgd-color);
+    background-color: var(--button-bgd-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: #fff;
+    background-color: var(--active-bgd-color);
+}
+
+.project-items {
+}
+.project-item {
+}
+
+.project-title {
+}
+
+.project-subtitle {
+    color: var(--tertiary-text-color);
+}
+    /* ------FOOTER ------*/
+.footer {
+    background-color: var(--secondary-text-color);
+}
+.footer-logo {
+    line-height: 1.17;
+    color: var(--button-bgd-color);
+}
+.footer-descr {
+    color: var(--button-border-color);
+}
