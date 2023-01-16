@@ -259,7 +259,7 @@ img {
 .values-list {
     display: flex; 
     align-items: center;
-    gap: 24px;
+    gap: 22px;
 }
 
 .value-items {
