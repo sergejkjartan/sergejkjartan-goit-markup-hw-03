@@ -43,11 +43,6 @@ img {
     height: auto;
 }
 
-.section {
-    padding-left: 156px;
-    padding-right: 156px;
-}
-
 .list {
     list-style: none;
 }
@@ -58,7 +53,7 @@ img {
 
 .section-header {
     font-size: 36px;
-    line-height: 1.11
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -96,7 +91,7 @@ img {
 .subtitle {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -164,7 +159,6 @@ img {
 
 .header-item:not(:last-child) {
     margin-right: 40px;
-    
 }
 
 .header-link {
@@ -421,3 +415,4 @@ img {
     max-width: 264px;
     color: var(--button-border-color);
 }
+
